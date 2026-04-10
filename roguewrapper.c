@@ -79,8 +79,13 @@ void setFgColor(int c) {
 
 	return;
 }
-char* getFgColor(void) {
-	return screen_fgcolor[terminal_x1][terminal_y1];
+int getFgColor(void) {
+	for (int i=0; i<16; i++) {
+		if (strcmp(getANSIColor(i), screen_fgcolor[terminal_x1][terminal_y1]) == 0) {
+			return i;
+		}
+	}
+	return -1;
 }
 
 void setBgColor(int c) {
@@ -91,8 +96,13 @@ void setBgColor(int c) {
 
 	return;
 }
-char* getBgColor(void) {
-	return screen_bgcolor[terminal_x1][terminal_y1];
+int getBgColor(void) {
+	for (int i=0; i<16;i++) {
+		if (strcmp(getANSIBgColor(i), screen_bgcolor[terminal_x1][terminal_y1]) == 0) {
+			return i;
+		}
+	}
+	return -1;
 }
 
 

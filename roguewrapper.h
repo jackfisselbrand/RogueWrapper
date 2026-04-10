@@ -27,10 +27,10 @@ void setCharacter(char c);
 char getCharacter(void);
 
 void setFgColor(int c);
-char* getFgColor(void);
+int getFgColor(void);
 
 void setBgColor(int c);
-char* getBgColor(void);
+int getBgColor(void);
 
 char getKeyPress(void);
 
