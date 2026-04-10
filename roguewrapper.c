@@ -5,11 +5,11 @@ char screen_char[TERMINAL_HEIGHT][TERMINAL_WIDTH] = {0};
 char screen_fgcolor[TERMINAL_HEIGHT][TERMINAL_WIDTH][10] = {0};
 char screen_bgcolor[TERMINAL_HEIGHT][TERMINAL_WIDTH][10] = {0};
 
-int terminal_x1;
-int terminal_y1;
-int print_offsetx;
-int print_offsety;
-int cursor_visibility;
+int terminal_x1 = 0;
+int terminal_y1 = 0;
+int print_offsetx = 0;
+int print_offsety = 0;
+int cursor_visibility = 1;
 
 
 
