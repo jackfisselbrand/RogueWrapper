@@ -31,7 +31,7 @@ void setCursorVis(int v) {
 	setCursorVisibility(v);
 	return;
 }
-int getCursorvis(void) {
+int getCursorVis(void) {
 	return cursor_visibility;
 }
 
