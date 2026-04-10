@@ -13,7 +13,7 @@ void setPrintOffsetY(int o);
 int getPrintOffsetY(int o);
 
 void setCursorVis(int v);
-int getCursorvis(void);
+int getCursorVis(void);
 
 int getTerminalRows(void);
 int getTerminalCols(void);
