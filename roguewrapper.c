@@ -1,9 +1,9 @@
 #include "roguewrapper.h"
 #include "rogueutil.h"
 
-char screen_char[TERMINAL_HEIGHT][TERMINAL_WIDTH] = {0};
-char screen_fgcolor[TERMINAL_HEIGHT][TERMINAL_WIDTH][10] = {0};
-char screen_bgcolor[TERMINAL_HEIGHT][TERMINAL_WIDTH][10] = {0};
+char screen_char[TERMINAL_WIDTH][TERMINAL_HEIGHT] = {0};
+char screen_fgcolor[TERMINAL_WIDTH][TERMINAL_HEIGHT][10] = {0};
+char screen_bgcolor[TERMINAL_WIDTH][TERMINAL_HEIGHT][10] = {0};
 
 int terminal_x1 = 0;
 int terminal_y1 = 0;
