@@ -45,14 +45,18 @@ int getTerminalCols(void) {
 
 
 void setX1Pos(int x) {
+	x = abs(x % TERMINAL_WIDTH);
 	terminal_x1 = x;
+
 	return;
 }
 int getX1Pos(void) {
 	return terminal_x1;
 }
 void setY1Pos(int y) {
+	y = abs(y % TERMINAL_HEIGHT);
 	terminal_y1 = y;
+
 	return;
 }
 int getY1Pos(void) {

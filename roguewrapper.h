@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 #define TERMINAL_WIDTH 80
 #define TERMINAL_HEIGHT 24
