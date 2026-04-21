@@ -16,13 +16,13 @@ int cursor_visibility = 1;
 void setPrintOffsetX(int o) {
 	print_offsetx = o;
 }
-int getPrintOffsetX(int o) {
+int getPrintOffsetX(void) {
 	return print_offsetx;
 }
 void setPrintOffsetY(int o) {
 	print_offsety = o;
 }
-int getPrintOffsetY(int o) {
+int getPrintOffsetY(void) {
 	return print_offsety;
 }
 
